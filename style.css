@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 160px;
+    text-align: center;
+    font-family: 'Cinzel' , cursive;
+    background-image: url(./assets/travel-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 86px;
+    color: #151718;
+}
+
+h1 span {
+    color: #DB2777;
+}
+
+p {
+    padding-top: 4px;
+    margin-bottom: 72px;
+    font-family: 'Inter', sans-serif;
+    color: #2C2E2FE5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  padding: 16px 32px;
+  gap: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #151718;
+}
+
+a:hover,
+.second-button {
+    text-decoration: none;
+    color: #ffff;
+    background-color: #DB2777;
+    border-radius: 80px;
+    transition: 0.3s;
+}
